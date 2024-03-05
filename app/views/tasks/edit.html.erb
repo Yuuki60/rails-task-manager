@@ -1,0 +1,11 @@
+<h1>Edit task</h1>
+
+<hr class="my-4">
+
+<%= render "form", task: @task %>
+
+<hr class="my-4">
+
+<%= link_to(tasks_path, class: 'btn btn-secondary back-link') do %>
+  <i class="fas fa-arrow-left"></i> Back to List
+<% end %>

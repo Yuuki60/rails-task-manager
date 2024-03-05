@@ -13,3 +13,22 @@
  *= require_tree .
  *= require_self
  */
+
+ .no-underline {
+   text-decoration: none;
+ }
+
+.background {
+  background: linear-gradient(to right, #f5f5f5, #e5f3f3, #eaf2f5, #f2eaf5, #f5e5ec, #f5f0e5, #f5f5ec);
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.bg-custom {
+  background-color: #e0f2f1;
+}

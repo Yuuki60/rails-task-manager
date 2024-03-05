@@ -1,0 +1,10 @@
+<h1>New task</h1>
+<hr class="my-4">
+
+<%= render "form", task: @task %>
+
+<hr class="my-4">
+
+<%= link_to(tasks_path, class: 'btn-btn-link d-block mt-3 text-decoration-none') do %>
+  <i class="fa-solid fa-rotate-left"></i> Back to list
+<% end %>
